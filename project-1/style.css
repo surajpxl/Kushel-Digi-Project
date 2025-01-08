@@ -75,7 +75,7 @@ main {
 
 .main {
     width: 100%;
-    height: calc(100vh - 80px); 
+    height: 100vh; 
     background-color: #333030;
 }
 
