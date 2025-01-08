@@ -71,6 +71,7 @@ nav ul li a {
 main {
     text-align: center;
     padding-top: 80px;
+    
 }
 
 .main {
@@ -94,7 +95,7 @@ main {
 .overlay {
     position: absolute;
     top: 20%;
-    left: 25%;
+    left: 20%;
 }
 
 .img-g {
@@ -119,7 +120,7 @@ main p {
     font-size: 22px;
     color: #ffffff;
     line-height: 1;
-    margin: 30px 0 10px 0px;
+    margin: 30px 0px 10px 0px;
 }
 
 /* Main section completed */
