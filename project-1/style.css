@@ -158,7 +158,7 @@ main p {
     padding: 7px 15px;
     border-radius: 15px;
     color: #654b4b;
-    background-color: #fff;
+    background-color: #ffffff;
     border-color: #654b4b;
     cursor: pointer;
 }
@@ -175,12 +175,12 @@ main p {
     align-items: center;    
     height: 100vh;  
     flex-direction: column; 
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 
 .services .head h1{
-      margin-bottom:20px; 
+      margin-top:80px; 
     text-decoration: underline;
     text-align: center;
 }
@@ -207,7 +207,17 @@ main p {
     color: white;
     padding: 20px; 
     border-radius: 10px; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.cards .crd1:hover, 
+.cards .crd2:hover, 
+.cards .crd3:hover, 
+.cards .crd4:hover, 
+.cards .crd5:hover, 
+.cards .crd6:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 .cards img {
@@ -235,6 +245,10 @@ main p {
   padding: 7px 15px;
   border-radius: 15px;
   cursor: pointer;
+}
+.services button:hover{
+    color: red;
+    background-color: #fff;
 }
 
 /* section$ started */
@@ -287,6 +301,10 @@ main p {
     border-radius: 15px;
     cursor: pointer;
 }
+.section4 .lstbtn:hover{
+    color: red;
+    background-color: #fff;
+}
 
 /* technologies section  */
 
@@ -317,7 +335,15 @@ main p {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     margin-top: 40px;
 }
-
+.crdd .crdd1:hover, 
+.crdd .crdd2:hover, 
+.crdd .crdd3:hover, 
+.crdd .crdd4:hover, 
+.crdd .crdd5:hover, 
+.crdd .crdd6:hover {
+  background: linear-gradient(135deg, #e4e3e6, #ffffff);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
 .crdd img{
     width: 150px;
     padding-bottom: 20px;
@@ -341,6 +367,12 @@ main p {
     padding: 7px;
     margin-top: 25px;
     border-radius: 15px;
+    cursor: pointer;
+
+}
+.attach button:hover{
+    color: red;
+    background-color: #fff;
 }
 /* ******************************************* */
 .process h3{
@@ -386,6 +418,10 @@ main p {
     border-radius: 15px;
     cursor: pointer;
     color: blueviolet;
+}
+.process button:hover{
+    color: red;
+    background-color: #fff;
 }
 
 .discovery h2 ,p{
